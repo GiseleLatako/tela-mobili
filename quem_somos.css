@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'VW Head';
+    src: url('mobili_imgs/fonts/VWHead-Regular.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --azulvw: #001E50;
+    --titulo: 'VW Head', sans-serif;
+    --texto: "Verdana", sans-serif;
+
+
+
+}
+
+.posicionamento {
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+
+
+}
+
+h1 {
+    width: 1em;
+    position: absolute;
+    left: -999em;
+    overflow: hidden;
+
+}
+
+
+
+
+header {
+    background-color: #ffff;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    font-family: ;
+}
+
+.elementos_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .logo_links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 750px;
+} */
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 150px;
+    width: calc(100% - 200px);
+    font-family: var(--titulo);
+    /* width: 500px; */
+
+
+}
+
+.elementos_header a {
+    text-decoration: none;
+    color: var(--azulvw);
+    font-size: 25px;
+
+}
+
+.links_central {
+    width: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.login_cadastro {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+
+}
+
+.login_cadastro .login {
+    border: 3px solid var(--azulvw);
+    background-color: #E7E7E7;
+}
+
+.login_cadastro .cadastro {
+    height: 32px;
+    width: 105px;
+    background-color: #E7E7E7;
+
+}
+
+
+/* MAIN */
+
+body {
+    background-color: #E7E7E7;
+
+}
+
+.Missão_Visão {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card {
+    width: 550px;
+    height: 300px;
+    background-color: #001E50;
+    margin-bottom: 30px;
+    color: #ffff;
+
+}
+
+.card2 {
+    width: 100%;
+    height: 300px;
+    background-color: #001E50;
+    margin-bottom: 30px;
+    color: #ffff;
+
+}
+
+.mobili_footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.redes {
+    width: 200px;
+}
+
+.redes_sociais {
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsletter{
+height: 150px;
+width: 400px;
+border: 2px solid rgba(255, 255, 255, 0.8);
+border-radius: 10px;
+}
+
+.páginas_newsletter{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.paginas{
+display: flex;
+flex-direction: column;
+
+}
+
+footer{
+    height: 200px;
+    background-color: beige;
+}
